@@ -1,152 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
-</head>
-<body>
- 
-   
-        <table>
-        <tr>
-            <th>Dia</th>
-            <th>Tempo</th>
-            <th>Minima</th>
-            <th>Maxima</th>
-        </tr>
-        <tr>
-            <td>Segunda</td>
-            <td>⛅</td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Terça</td>
-            <td>⛅</td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Quarta</td>
-            <td>⛅</td>
-            <td>27°</td>
-            <td>32°</td>
-        </tr>
-        <tr>
-            <td>Quinta</td>
-            <td>⛅</td>
-            <td>27°</td>
-            <td>32°</td>    
-           </tr>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+
+        <table border="2">
             <tr>
-                <td>Sexta</td>
+                <th>Dia</th>
+                <th>Tempo</th>
+                <th>Minima</th>
+                <th>Maxima</th>
+            </tr>
+            <tr>
+                <td>Domingo</td>
                 <td>⛅</td>
                 <td>27°</td>
                 <td>32°</td>
             </tr>
-    </table>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-    
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-    
-        th {
-            background-color: #2201db;
-            color: white;
-        }
-    
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-    </style>
-
-<style>
-    table {
-        width: 50%; /* Ajusta a largura da tabela */
-        border-collapse: collapse; /* Remove o espaço entre as bordas das células */
-        margin: 0 auto; /* tabela no começo da pagina do lado esquerdo */
-    }
-    th, td {
-        border: 1px solid #000000; /* Linha fina */
-        padding: 3px 5px; /* Menor padding para reduzir o tamanho das células */
-        text-align: center;
-        width: 30px; /* Definir a largura fixa das colunas */
-    }
-</style>
-  
-<br><br>
-
-<table border="1">
-    <caption>TABELA 2</caption>
-    <tr>
-        <th>Cidade</th>
-        <th>Horário do ônibus</th>
-        <th>Local</th>
-    </tr>
-    <tr>
-        <td>Birigui</td>
-        <td>16:00</td>
-        <td>Instituto Federal</td>
-    </tr>
-    <tr>
-        <td>Araçatuba</td>
-        <td>15:30</td>
-        <td>Shopping Praça nova</td>
-    </tr>
-</tr>
-<td>Santopolís</td>
-<td>14:00</td>
-<td>Praça Central</td>
-</tr>
-<tr>        <td>Clementina</td>
-    <td>13:00</td>
-    <td>Ponto do açaí</td>
-</tr>
-<tr>        <td>Piacatu</td>
-    <td>10:00</td>
-    <td>Clube</td>
-</tr>
-<tr>        <td>Braúna</td>
-    <td>18:00</td>
-    <td>Matriz de São Sebastião</td>
-</tr>
-<tr>        <td>Buritama</td>
-    <td>17:15</td>
-    <td>Recinto Rodeiogi</td>
-</tr>
-<tr>
-
-
-
-
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
-
+            <tr>
+                <td>Segunda</td>
+                <td>⛈️</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td>🌦️</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>⛅</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+                <td>🌧️</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>🌧️</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>🌩️</td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="3">País</th>
+                    <th colspan="2">Saneamento básico (%)</th>
+                    <th colspan="3">taxa de mortalidade</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Esgotamento sanitário adquado</th>
+                    <th rowspan="2">abastecimento de água</th>
+                    <th colspan="3">anos de permanência das mães na escola</th>
+                </tr>
+                <th>até 3</th>
+                <th>de 4 a 7</th>
+                <th>8 ou mais</th>
+            </thead>
+            <tbody>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>33</td>
+                <td>47</td>
+                <td>45,1</td>
+                <td>29,6</td>
+                <td>21,4</td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td>36</td>
+                <td>65</td>
+                <td>70,3</td>
+                <td>41,2</td>
+                <td>28,0</td>
+            </tr>
+            <tr>
+                <td>III</td>
+                <td>81</td>
+                <td>88</td>
+                <td>34,8</td>
+                <td>27,4</td>
+                <td>17,7</td>
+            </tr>
+            <tr>
+                <td>IV</td>
+                <td>62</td>
+                <td>79</td>
+                <td>33,9</td>
+                <td>22,5</td>
+                <td>16,4</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>40</td>
+                <td>73</td>
+                <td>37,9</td>
+                <td>25,1</td>
+                <td>19,3</td>
+            </tr>
+            </tbody>
+        </body>
+    </html>
